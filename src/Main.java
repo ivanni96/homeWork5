@@ -28,7 +28,7 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
                 }
 
-        //Задача3
+        // Задача3
 
         int year = 2014;
 
@@ -37,9 +37,25 @@ public class Main {
         }else{
             System.out.println("Год не является високосным");}
 
+        // Задача 4
+
+        int deliveryDistance = 95;
+
+        if (deliveryDistance <= 20){
+            System.out.println("Потребуется дней: 1");}
+        if (deliveryDistance > 20 && deliveryDistance <= 60) {
+            System.out.println("Потребуется дней: 2");}
+        if (deliveryDistance > 60 && deliveryDistance <= 100){
+            System.out.println("Потребуется дней: 3");
+        }
+
             }
 
         }
+
+
+
+
 
 
 
