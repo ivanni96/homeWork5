@@ -39,14 +39,14 @@ public class Main {
 
         // Задача 4
 
-        int deliveryDistance = 95;
+        int deliveryDistance = 19;
+        int deliveryDays = 1;
 
-        if (deliveryDistance <= 20){
-            System.out.println("Потребуется дней: 1");}
-        if (deliveryDistance > 20 && deliveryDistance <= 60) {
-            System.out.println("Потребуется дней: 2");}
-        if (deliveryDistance > 60 && deliveryDistance <= 100){
-            System.out.println("Потребуется дней: 3");
+        if (deliveryDistance >20){
+            deliveryDays++;}
+        if (deliveryDistance > 60 ) {
+            deliveryDays ++;}
+        {System.out.println("Потребуется дней " + deliveryDays);
         }
 
         // Задача 5
