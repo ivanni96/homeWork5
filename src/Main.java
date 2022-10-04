@@ -27,6 +27,16 @@ public class Main {
         if (clientDeviceYear < 2015 && clientOS2 == 0) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
                 }
+
+        //Задача3
+
+        int year = 2014;
+
+        if (year % 400 == 0||year % 4 == 0 && year % 100 !=0){
+            System.out.println("Год является високосным");
+        }else{
+            System.out.println("Обычный год");}
+
             }
 
         }
