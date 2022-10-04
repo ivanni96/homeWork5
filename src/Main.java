@@ -35,7 +35,7 @@ public class Main {
         if (year % 400 == 0||year % 4 == 0 && year % 100 !=0){
             System.out.println("Год является високосным");
         }else{
-            System.out.println("Обычный год");}
+            System.out.println("Год не является високосным");}
 
             }
 
